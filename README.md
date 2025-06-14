@@ -53,9 +53,7 @@ The app will automatically request your location when opened. You can either:
 
 **Priyanshu**
 - MERN Stack Developer
-- Portfolio: [Your portfolio URL]
-- GitHub: [Your GitHub URL]
-- LinkedIn: [Your LinkedIn URL]
+
 
 ## Note
 
@@ -65,6 +63,3 @@ The app uses the WeatherStack API. Make sure to replace the API key with your ow
 
 Feel free to fork this project and submit pull requests for any improvements.
 
-## License
-
-MIT License

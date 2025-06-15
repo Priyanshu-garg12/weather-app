@@ -11,7 +11,21 @@ const DisplayWeatherData = ({
   precip,
   humidity,
   img,
+  error,
 }) => {
+  if (error) {
+    return (
+      <div className="container expand-lg bg-transparent mt-md-5 text-white border border-secondary rounded">
+        <div className="row mt-md-5 mb-md-5">
+          <div className="col-md-12 text-center">
+            <h3>{error}</h3>
+            <p>Please try again later.</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container expand-lg bg-transparent mt-md-5 text-white border border-secondary rounded">
       <div className="row mt-md-5 mb-md-5">
